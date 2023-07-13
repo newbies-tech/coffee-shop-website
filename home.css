@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    /* padding: 100px; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 75px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    width: 75px;
+    height: 50px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav  a{
+    display: inline;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+nav a:hover{
+    color: rgb(100, 52, 15);
+    text-decoration:underline ;
+    transition: linear 0.2s;
+    
+}
+
+
+.right-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    padding: 30px;
+}
+
+header {
+    display: flex;
+    background-image: url("header.avif ");
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.textbox {
+    margin: 20px;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+h1,
+p {
+    color: white;
+
+}
+
+.white {
+    color: white;
+}
+
+.brown {
+    color: rgb(123, 64, 1);
+
+
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+
+}
+
+p {
+    font-size: 1.15rem;
+    padding: 20px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.get {
+    border: none;
+    background-color: rgb(123, 64, 1);
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.about {
+    padding: 10px 150px;
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    font-size: 2.25rem;
+    color: rgb(123, 64, 1);
+}
+
+
+.content {
+    display: flex;
+    /* padding: 45px; */
+    background-color: rgb(1, 8, 21);
+    width: 100%;
+}
+
+
+.body {
+    font-size: 1rem;
+    color: rgb(92, 95, 101);
+}
+
+.image {
+    background-image: url("color-class-latte-present-barista_1286-277.avif");
+    width: 550px;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+
+}
+
+.text-content {
+    width: 50%;
+}
+
+.us {
+    color: white;
+}
+
+.head {
+    font-size: 2.5rem;
+}
+
+.menu-section,
+.review-section {
+    padding: 10px 30px;
+}
+
+.box-container,
+.review-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+
+.product,
+.product1,
+.review {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    /* border: 1px solid white; */
+    /* justify-content: center; */
+    box-shadow: inset 0px 0px 5px 1px #fffefd;
+
+}
+
+.menu-section .box-container .product:hover {
+    background: white;
+
+    /* justify-content: center; */
+}
+
+.menu-section .box-container .product:hover>* {
+    color: black;
+    /* justify-content: center; */
+}
+
+.thumb {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.description,
+.price,
+.name,
+.rating {
+    color: white;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 900;
+    /* width: fit-content; */
+
+}
+
+.our-menu,
+.review-header,
+.head {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.menu {
+    color: rgb(123, 64, 1);
+
+}
+
+.add {
+    background-color: rgb(123, 64, 1);
+    border: none;
+    border-radius: 10px;
+    width: 125px;
+    height: 35px;
+
+}
+
+i.fa-solid.fa-bars.fa-xl.nav-icon.right-box {
+    padding: 20px;
+    display: none;
+}
+
+.top-icons {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.border {
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 5px;
+
+}
+
+.cursor {
+    cursor: pointer;
+
+}
+
+.product img {
+    border-radius: 25px;
+
+}
+
+.picture {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+.colin {
+    font-size: 8rem;
+}
+
+.contact-container {
+    display: flex;
+    background-color: rgb(1, 1, 31);
+
+
+}
+
+.contact {
+    /* display: flex; */
+    box-shadow: inset 0px 0px 5px 1px #fffefd;
+
+
+}
+
+.contact {
+    margin: 10px 150px;
+    padding: 5px;
+}
+
+.map {
+    width: 50%;
+}
+
+.touch {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding: 25px 0px 25px 0px;
+}
+
+.info {
+
+    margin-right: 20px;
+    width: 50%;
+    padding: 10px 50px;
+}
+
+
+
+
+.map2 {
+    width: 100%;
+}
+
+.info input {
+
+    padding: 10px;
+    border: none;
+    background-color: rgb(1, 1, 31);
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.info input:focus {
+    outline: none;
+}
+
+.padd {
+    margin: 25px 10px;
+    padding: 10px;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+}
+
+.social,
+.nav2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.social i {
+    background-color: rgb(123, 64, 1);
+    padding: 20px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.nav2 button {
+    background-color: rgb(123, 64, 1);
+    color: white;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    border: var(--white);
+
+}
+
+@media screen and (max-width:768px) {
+    nav ul {
+        display: none;
+
+    }
+
+    nav {
+        justify-content: space-between;
+
+    }
+    .right-box{
+        /* display: flex; */
+        justify-content: space-between;
+    }
+
+    header {
+        background-image: url("header.avif ");
+        width: 100%;
+        background-size: 100% 100%;
+        height: 300px;
+        background-repeat: no-repeat;
+        align-items: center;
+    }
+
+    .textbox {
+        align-items: start;
+        margin: 20px;
+        max-width: 250px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 900;
+
+    }
+
+    p {
+        font-size: 0.85rem;
+        padding: 20px 0px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    .about {
+        padding: 10px 15px;
+    }
+
+    .about-text {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        color: rgb(123, 64, 1);
+    }
+
+
+    .content {
+        display: flex;
+        /* padding: 45px; */
+        background-color: rgb(1, 8, 21);
+        width: 100%;
+    }
+
+
+    .body {
+        font-size: 0.85rem;
+        color: rgb(92, 95, 101);
+    }
+
+    .image {
+        background-image: url("color-class-latte-present-barista_1286-277.avif");
+        width: 50%;
+        height: 350px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        margin-left: 5px;
+
+    }
+
+    .our-menu,
+    .review-header,
+    .head {
+        font-size: 1.15rem;
+        padding: 10px;
+    }
+
+    .product {
+        padding: 10px 5px;
+    }
+
+    .map {
+        width: 50%;
+    }
+
+    .touch {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        padding: 25px 0px 25px 0px;
+    }
+
+    .info {
+        margin-right: 5px;
+        width: 50%;
+        padding: 5px 5px;
+    }
+
+    .map2 {
+        width: 100%;
+    }
+
+    .info input {
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    .padd {
+        margin: 25px 10px;
+        padding: 2px;
+    }
+
+    .contact {
+        margin: 5px 10px;
+        padding: 5px;
+    }
+
+    i.fa-solid.fa-bars.fa-xl.nav-icon.right-box {
+        padding: 20px;
+        display: inline-block;
+    }
+
+    i.fa-solid.fa-bars.fa-xl.nav-icon.right-box.active {
+        padding: 20px;
+        display: inline-block;
+        position: absolute;
+
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .option-container.active {
+        background-color: black;
+        height: 20rem;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    .option-container.active .list2 {
+        /* display: flex; */
+        display: block;
+        color: white;
+    }
+
+    .option-container.active .list2 a {
+        display: block;
+        list-style: none;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+
+    }
+    .option-container.active .list2 a :hover{
+        scale: 150%;
+        text-decoration: wavy;
+        transition: ease;
+        
+
+    }
+
+
+
+}
+
+.option-container .list2 {
+    display: none;
+}
